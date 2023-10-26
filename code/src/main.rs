@@ -1,6 +1,3 @@
-// main.rs
-
-// Import the modules you'll be using in the main program.
 mod task;
 mod team;
 
@@ -8,7 +5,6 @@ use task::{allocate_tasks, Task};
 use team::TeamMember;
 
 fn main() {
-    // Your main program logic remains unchanged.
     let mut team_members = vec![
         TeamMember {
             name: "Alice".to_string(),
